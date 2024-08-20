@@ -59,7 +59,7 @@ read(1,*) char0,n_k
 do i=1,3
 read(1,*)
 enddo
-n_f=1 ！num_cell*3 here is modified to use it in amorphous materials.
+n_f=1 ! num_cell*3 here is modified to use it in amorphous materials.
 read(1,*) char0,dt
 do i=1,7
     read(1,*)
