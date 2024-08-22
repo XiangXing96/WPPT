@@ -277,7 +277,7 @@ do ik=1,n_k
 
         if(Omega_OR=='T') then
 
-            open(1,file='frequency.dat')
+            open(1,file='frequency.dat') ! the frequency should be in the unit of THz
             do i=1,(wvector-1)
             read(1,*)
             enddo
