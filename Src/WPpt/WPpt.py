@@ -50,7 +50,7 @@ else:
     fm=f.readlines()
     f.close()
     
-    Nbranch=int(fm[3].split()[1])*3
+    Nbranch=1 # int(fm[3].split()[1])*3 here is modified to conduct calculations for amorphous materials
     Nkpoints=int(fm[4].split()[1])
     
     calculation_mode= fm[29].split()[1]  # 1: only times calculations
